@@ -20,4 +20,4 @@ def home():
 
 @app.route("/about")
 def about():
-    return "<p>Your 150 words here.</p>"
+    return "<p>Your 150 words here/p>"
