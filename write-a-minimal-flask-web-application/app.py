@@ -14,5 +14,10 @@ def home():
   </head>
   <body>
     <h1>Hello from <strong>MeomoLab</strong></h1>
+    <a href="/about">About</a>
   </body>
 </html>"""
+
+@app.route("/about")
+def about():
+    return "<p>Your 150 words here.</p>"
